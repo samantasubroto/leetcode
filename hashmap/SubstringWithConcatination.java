@@ -1,4 +1,4 @@
-package hard.hashmap;
+package hashmap;
 
 import java.util.Arrays;
 import java.util.List;

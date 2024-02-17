@@ -4,7 +4,7 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String name = "subrotho";
+        String name = "aaabbaaa";
         char[] arr = name.toCharArray();
         Arrays.sort(arr);
         int max = Integer.MIN_VALUE;

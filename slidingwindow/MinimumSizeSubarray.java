@@ -1,4 +1,4 @@
-package medium.slidingwindow;
+package slidingwindow;
 
 import java.util.Arrays;
 

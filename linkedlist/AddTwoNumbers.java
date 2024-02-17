@@ -1,4 +1,4 @@
-package medium.linkedlist;
+package linkedlist;
 
 import java.util.*;
 

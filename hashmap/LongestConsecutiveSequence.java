@@ -1,4 +1,4 @@
-package medium.hash;
+package hashmap;
 
 import java.util.Arrays;
 import java.util.Collections;

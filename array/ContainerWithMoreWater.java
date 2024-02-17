@@ -1,4 +1,4 @@
-package medium.array;
+package array;
 
 //not solved as question description not makes sense
 

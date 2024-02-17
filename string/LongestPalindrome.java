@@ -1,4 +1,4 @@
-package medium.string;
+package string;
 
 public class LongestPalindrome {
     public static boolean isPalindrome(String str) {
