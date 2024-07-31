@@ -1,25 +1,20 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class Main {
-    public int maximumWealth(int[][] accounts) {
-        int max = 0;
-        for(int i=0;i<accounts.length;i++) {
-            int value = 0;
-            for(int j=0;j<accounts[i].length;j++) {
-                value += accounts[i][j];
+    public static void maximumWealth(int[] accounts) {
+        Arrays.sort(accounts);
+        double average = Double.MAX_VALUE;
+        for(int i=0,j=accounts.length-1;i<j;i++,j--) {
+            if(((accounts[i] + accounts[j]) / 2.0) < average) {
+                average = ((accounts[i] + accounts[j]) / 2.0);
             }
-            max = Math.max(max, value);
         }
-        return max;
+        System.out.println(average);
     }
     public static void main(String[] args) {
 
-        String name = "hello";
-        int count = 0;
-        for(int i=0;i<name.length()-1;i++) {
-            count += Math.abs((int)name.charAt(i) - (int)name.charAt(i+1));
-        }
-        System.out.println(count);
+        maximumWealth(new int[]{7,8,3,4,15,13,4,1});
 
     }
 }

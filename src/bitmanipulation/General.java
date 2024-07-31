@@ -15,10 +15,6 @@ public class General {
         return res.toString();
     }
 
-    public static int convertBinary2Decimal() {
-
-    }
-
     public static void main(String[] args) {
         System.out.println(convert2Binary(13));
     }
