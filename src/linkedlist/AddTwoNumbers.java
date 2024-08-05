@@ -116,26 +116,36 @@ public class AddTwoNumbers {
         return result;
     }
 
+    public static int middleNode(ListNode head) {
+        ListNode slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow.val;
+    }
+
     public static void main(String[] args) {
         LinkedList<Integer> l1 = new LinkedList<>(List.of(9));
         LinkedList<Integer> l2 = new LinkedList<>(List.of(1));
-        ListNode list1 = new ListNode(9,null);
-        list1.next =  new ListNode(9,null);
-        list1.next.next =  new ListNode(1,null);
-//        list1.next.next.next =  new ListNode(9,null);
-//        list1.next.next.next.next =  new ListNode(9,null);
-//        list1.next.next.next.next.next =  new ListNode(9,null);
-//        list1.next.next.next.next.next.next =  new ListNode(9,null);
-       // list1.next.next.next.next.next.next.next =  new ListNode(9,null);
-        ListNode list2 = new ListNode(1,null);
+        ListNode list1 = new ListNode(1,null);
+        list1.next =  new ListNode(2,null);
+        list1.next.next =  new ListNode(3,null);
+        list1.next.next.next =  new ListNode(4,null);
+        list1.next.next.next.next =  new ListNode(5,null);
+        list1.next.next.next.next.next =  new ListNode(6,null);
+//        list1.next.next.next.next.next.next =  new ListNode(6,null);
+       // list1.next.next.next.next.next.next.next =  new ListNode(7,null);
+        System.out.println(middleNode(list1));
+//        ListNode list2 = new ListNode(1,null);
 //        list2.next =  new ListNode(6,null);
 //        list2.next.next =  new ListNode(4,null);
 //        list2.next.next.next =  new ListNode(9,null);
        // System.out.println(addition(list1, list2));
-        ListNode head = addition(list1, list2);
-        while(head != null) {
-            System.out.print(head.val+ " ");
-            head = head.next;
-        }
+//        ListNode head = addition(list1, list2);
+//        while(head != null) {
+//            System.out.print(head.val+ " ");
+//            head = head.next;
+//        }
     }
 }

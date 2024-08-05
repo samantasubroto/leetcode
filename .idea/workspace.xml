@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5bc6ea-5e13-46f9-aad2-1e76cfd76afd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bitmanipulation/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bitmanipulation/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +34,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddTwoNumbers.executor": "Run",
     "Application.ArrayRearrenge.executor": "Run",
+    "Application.BuyAndSellStocksI.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.DigitCanWin.executor": "Run",
+    "Application.EvenOneSide.executor": "Run",
     "Application.General.executor": "Run",
+    "Application.LexicographicallySmallPalindrome.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MergeString.executor": "Run",
     "Application.NumberOfSpecial.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Pivot_Partition.executor": "Run",
     "Application.ReversePrefix.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.ReverseWords.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -52,9 +58,35 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="ArrayRearrenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.ArrayRearrenge" />
+  <component name="RunManager" selected="Application.BuyAndSellStocksI">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbers" />
+      <module name="leetcode_new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyAndSellStocksI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.BuyAndSellStocksI" />
+      <module name="leetcode_new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenOneSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.EvenOneSide" />
       <module name="leetcode_new" />
       <extension name="coverage">
         <pattern>
@@ -73,34 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSpecial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contest.jul_sunday.NumberOfSpecial" />
-      <module name="leetcode_new" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contest.jul_sunday.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.Palindrome" />
-      <module name="leetcode_new" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pivot_Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.Pivot_Partition" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.ReverseString" />
       <module name="leetcode_new" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.ArrayRearrenge" />
+        <item itemvalue="Application.BuyAndSellStocksI" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Pivot_Partition" />
-        <item itemvalue="Application.NumberOfSpecial" />
+        <item itemvalue="Application.EvenOneSide" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +164,16 @@
           <url>file://$PROJECT_DIR$/src/twopointers/ArrayRearrenge.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twopointers/EvenOneSide.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

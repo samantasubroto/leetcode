@@ -12,9 +12,24 @@ class Main {
         }
         System.out.println(average);
     }
+
+    public static int findMaxK(int[] arr) {
+        Arrays.sort(arr);
+        for (int i = 0, j = arr.length - 1; i < j; ) {
+            if (arr[j] + arr[i] != 0) {
+                if (Math.abs(arr[i]) > arr[j])
+                    i++;
+                else j--;
+            }else {
+                return arr[j];
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
 
-        maximumWealth(new int[]{7,8,3,4,15,13,4,1});
-
+        int[] arr = new int[]{2, 2, 2};
+        System.out.println(findMaxK(arr));
     }
 }
