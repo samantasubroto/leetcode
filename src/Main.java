@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 class Main {
     public static void maximumWealth(int[] accounts) {
@@ -29,7 +30,11 @@ class Main {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[]{2, 2, 2};
-        System.out.println(findMaxK(arr));
+        String[] str = new String[]{"abc","bcd","aaaa","cbc"};
+        List<Integer> list = new ArrayList<>();
+        for(int i=0;i<str.length;i++)
+           if(str[i].contains(String.valueOf('c')))
+               list.add(i);
+
     }
 }
