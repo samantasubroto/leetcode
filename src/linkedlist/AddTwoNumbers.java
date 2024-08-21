@@ -224,33 +224,89 @@ public class AddTwoNumbers {
         temp.next = null;
     }
 
-    public static void main(String[] args) {
-//        LinkedList<Integer> l1 = new LinkedList<>(List.of(9));
-//        LinkedList<Integer> l2 = new LinkedList<>(List.of(1));
+    public static ListNode removeNodes(ListNode head) {
+        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack1 = new Stack<>();
+        ListNode temp = head;
+        while (temp != null) {
+            stack.push(temp.val);
+            temp = temp.next;
+        }
+        int num1 = stack.pop();
+        while (!stack.isEmpty()) {
+            int num2 = stack.pop();
+            if (num1 <= num2) {
+                stack1.add(num1);
+                num1 = num2;
+            }
+        }
+        ListNode head2 = new ListNode(num1);
+        ListNode current = head2;
 
-        ListNode list1 = new ListNode(18, null);
-        list1.next = new ListNode(6, null);
-        list1.next.next = new ListNode(10, null);
+        while (!stack1.isEmpty()) {
+            current.next = new ListNode(stack1.pop());
+            current = current.next;
+        }
+        return head2;
+    }
+
+    public static int[] findMinMaxDifference(List<Integer> sortedArray) {
+        int minDifference = Integer.MAX_VALUE;
+        int maxDifference = sortedArray.get(sortedArray.size() - 1) - sortedArray.get(0);
+
+        // Sliding window to find minimum difference
+        int left = 0, right = 1;
+        while (right < sortedArray.size()) {
+            int diff = sortedArray.get(right) - sortedArray.get(left);
+            if (diff < minDifference) {
+                minDifference = diff;
+            }
+            left++;
+            right++;
+        }
+
+        return new int[]{minDifference, maxDifference};
+    }
+
+    public static int[] nodesBetweenCriticalPoints(ListNode head) {
+        ListNode current = head.next;
+        ListNode prev = head;
+        ListNode next = current.next;
+        List<Integer> list = new ArrayList<>();
+        int count = 2;
+        while(next != null) {
+            if(current.val < prev.val && current.val < next.val) {
+                list.add(count);
+            }else if(current.val > prev.val && current.val > next.val) {
+                list.add(count);
+            }
+            count++;
+            next = next.next;
+            current = current.next;
+            prev = prev.next;
+        }
+        System.out.println(list.size());
+        if(list.size() == 0 || list.size() == 1) {
+            return new int[]{-1, -1};
+        }
+        return findMinMaxDifference(list);
+    }
+
+    public ListNode swapNodes(ListNode head, int k) {
+
+    }
+
+    public static void main(String[] args) {
+        ListNode list1 = new ListNode(2, null);
+        list1.next = new ListNode(2, null);
+        list1.next.next = new ListNode(1, null);
         list1.next.next.next = new ListNode(3, null);
 //        list1.next.next.next.next = new ListNode(5, null);
-//        list1.next.next.next.next.next = new ListNode(6, null);
-//        list1.next.next.next.next.next.next = new ListNode(7, null);
+//        list1.next.next.next.next.next = new ListNode(1, null);
+//        list1.next.next.next.next.next.next = new ListNode(2, null);
 //        list1.next.next.next.next.next.next.next = new ListNode(8, null);
 
-        deleteGivenNode(list1);
-        traverseList(list1.next);
+        nodesBetweenCriticalPoints(list1);
 
-
-//        System.out.println(middleNode(list1));
-//        ListNode list2 = new ListNode(1,null);
-//        list2.next =  new ListNode(6,null);
-//        list2.next.next =  new ListNode(4,null);
-//        list2.next.next.next =  new ListNode(9,null);
-        // System.out.println(addition(list1, list2));
-//        ListNode head = addition(list1, list2);
-//        while(head != null) {
-//            System.out.print(head.val+ " ");
-//            head = head.next;
-//        }
     }
 }
