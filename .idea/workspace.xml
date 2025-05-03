@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b5bc6ea-5e13-46f9-aad2-1e76cfd76afd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +50,19 @@
     "Application.ReverseWords.executor": "Run",
     "Application.ShortestDistanceToCharacter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/subrotho/Documents/coding/leetcode_new",
     "onboarding.tips.debug.path": "C:/Users/ssubrotho/IdeaProjects/leetcode_new/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbers" />
       <module name="leetcode_new" />
@@ -99,6 +103,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode_new" />
       <method v="2">
@@ -131,12 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.BuyAndSellStocksI" />
+      <item itemvalue="Application.EvenOneSide" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ShortestDistanceToCharacter" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.ShortestDistanceToCharacter" />
         <item itemvalue="Application.BuyAndSellStocksI" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EvenOneSide" />
       </list>
     </recent_temporary>
@@ -169,11 +182,6 @@
           <url>file://$PROJECT_DIR$/src/twopointers/EvenOneSide.java</url>
           <line>4</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

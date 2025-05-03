@@ -292,10 +292,6 @@ public class AddTwoNumbers {
         return findMinMaxDifference(list);
     }
 
-    public ListNode swapNodes(ListNode head, int k) {
-
-    }
-
     public static void main(String[] args) {
         ListNode list1 = new ListNode(2, null);
         list1.next = new ListNode(2, null);

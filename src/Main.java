@@ -29,7 +29,6 @@ class Main {
     }
 
     public static void main(String[] args) {
-
         String[] str = new String[]{"abc","bcd","aaaa","cbc"};
         List<Integer> list = new ArrayList<>();
         for(int i=0;i<str.length;i++)
