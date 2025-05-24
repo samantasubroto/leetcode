@@ -1,39 +1,22 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 class Main {
-    public static void maximumWealth(int[] accounts) {
-        Arrays.sort(accounts);
-        double average = Double.MAX_VALUE;
-        for(int i=0,j=accounts.length-1;i<j;i++,j--) {
-            if(((accounts[i] + accounts[j]) / 2.0) < average) {
-                average = ((accounts[i] + accounts[j]) / 2.0);
-            }
-        }
-        System.out.println(average);
-    }
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        StringBuilder str1 = new StringBuilder();
+        StringBuilder str2 = new StringBuilder();
 
-    public static int findMaxK(int[] arr) {
-        Arrays.sort(arr);
-        for (int i = 0, j = arr.length - 1; i < j; ) {
-            if (arr[j] + arr[i] != 0) {
-                if (Math.abs(arr[i]) > arr[j])
-                    i++;
-                else j--;
-            }else {
-                return arr[j];
-            }
+        for(String word : word1){
+            str1.append(word);
         }
-        return -1;
+        for(String word : word2){
+            str2.append(word);
+        }
+        return str1.toString().equals(str2.toString());
     }
 
     public static void main(String[] args) {
-        String[] str = new String[]{"abc","bcd","aaaa","cbc"};
-        List<Integer> list = new ArrayList<>();
-        for(int i=0;i<str.length;i++)
-           if(str[i].contains(String.valueOf('c')))
-               list.add(i);
+        String sentence = "alice and bob love leetcode";
+        System.out.println(sentence.trim().split("\\s+").length);
 
     }
 }

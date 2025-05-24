@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5bc6ea-5e13-46f9-aad2-1e76cfd76afd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
     "Application.ArrayRearrenge.executor": "Run",
+    "Application.BinaryString.executor": "Run",
     "Application.BuyAndSellStocksI.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.DigitCanWin.executor": "Run",
@@ -42,6 +46,7 @@
     "Application.LexicographicallySmallPalindrome.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeString.executor": "Run",
+    "Application.MinumumNumberOfOperation.executor": "Run",
     "Application.NumberOfSpecial.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Pivot_Partition.executor": "Run",
@@ -49,6 +54,7 @@
     "Application.ReverseString.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.ShortestDistanceToCharacter.executor": "Run",
+    "Application.encoder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,10 +68,10 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.encoder">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbers" />
-      <module name="leetcode_new" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linkedlist.*" />
@@ -76,25 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuyAndSellStocksI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.BuyAndSellStocksI" />
-      <module name="leetcode_new" />
+    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.BinaryString" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOneSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.EvenOneSide" />
-      <module name="leetcode_new" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twopointers.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,17 +99,30 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="leetcode_new" />
+      <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistanceToCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointers.ShortestDistanceToCharacter" />
-      <module name="leetcode_new" />
+    <configuration name="MinumumNumberOfOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.MinumumNumberOfOperation" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointers.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.encoder" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +144,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinaryString" />
+      <item itemvalue="Application.encoder" />
+      <item itemvalue="Application.MinumumNumberOfOperation" />
       <item itemvalue="Application.AddTwoNumbers" />
-      <item itemvalue="Application.BuyAndSellStocksI" />
-      <item itemvalue="Application.EvenOneSide" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ShortestDistanceToCharacter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.encoder" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BinaryString" />
+        <item itemvalue="Application.MinumumNumberOfOperation" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.ShortestDistanceToCharacter" />
-        <item itemvalue="Application.BuyAndSellStocksI" />
-        <item itemvalue="Application.EvenOneSide" />
       </list>
     </recent_temporary>
   </component>
