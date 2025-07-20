@@ -1,22 +1,12 @@
-import java.util.*;
-
-class Main {
-    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
-        StringBuilder str1 = new StringBuilder();
-        StringBuilder str2 = new StringBuilder();
-
-        for(String word : word1){
-            str1.append(word);
-        }
-        for(String word : word2){
-            str2.append(word);
-        }
-        return str1.toString().equals(str2.toString());
-    }
-
+import java.util.concurrent.locks.ReentrantLock;
+class Dog {
+    String sound;
+    boolean hasEaten;
+}
+public class Main {
     public static void main(String[] args) {
-        String sentence = "alice and bob love leetcode";
-        System.out.println(sentence.trim().split("\\s+").length);
-
+       Dog d = new Dog();
+        System.out.println(d.hasEaten);
+        System.out.println(d.sound);
     }
 }
