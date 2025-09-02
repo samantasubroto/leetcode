@@ -34,65 +34,57 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
+    "Application.AllowedStringMatch.executor": "Run",
     "Application.ArrayRearrenge.executor": "Run",
     "Application.BinaryString.executor": "Run",
+    "Application.BuyAndSellStocks.executor": "Run",
     "Application.BuyAndSellStocksI.executor": "Run",
     "Application.CountPairs.executor": "Run",
+    "Application.CreateTargetArray_1389.executor": "Run",
     "Application.DigitCanWin.executor": "Run",
     "Application.EvenOneSide.executor": "Run",
+    "Application.FinalVariableValue.executor": "Run",
     "Application.General.executor": "Run",
+    "Application.LaseBeam_2125.executor": "Run",
+    "Application.LeftRightSum.executor": "Run",
     "Application.LexicographicallySmallPalindrome.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MatchingCommon_2657.executor": "Run",
+    "Application.MaxIncrese_807.executor": "Run",
     "Application.MergeString.executor": "Run",
     "Application.MinimumMoves.executor": "Run",
     "Application.MinumumNumberOfOperation.executor": "Run",
+    "Application.NumberLessThen_1365.executor": "Run",
     "Application.NumberOfSpecial.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.PangramString.executor": "Run",
+    "Application.PartitioningIntoMinimumNumber.executor": "Run",
+    "Application.PeopleSorting.executor": "Debug",
     "Application.Pivot_Partition.executor": "Run",
     "Application.ReversePrefix.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.ShortestDistanceToCharacter.executor": "Run",
+    "Application.ShuffleArray.executor": "Run",
+    "Application.ShuffleString.executor": "Run",
+    "Application.Truncate_1816.executor": "Run",
     "Application.encoder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/subrotho/Documents/coding/leetcode_new",
+    "last_opened_file_path": "/Users/subrotho/competitive programming/leetcode",
     "onboarding.tips.debug.path": "C:/Users/ssubrotho/IdeaProjects/leetcode_new/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.BinaryString" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatchingCommon_2657" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MatchingCommon_2657" />
+  <component name="RunManager" selected="Application.MaxIncrese_807">
+    <configuration name="CreateTargetArray_1389" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CreateTargetArray_1389" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinimumMoves" />
+    <configuration name="LeftRightSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LeftRightSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +109,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="encoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.encoder" />
+    <configuration name="MaxIncrese_807" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxIncrese_807" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberLessThen_1365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.NumberLessThen_1365" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuffleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ShuffleArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +156,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MatchingCommon_2657" />
-      <item itemvalue="Application.MinimumMoves" />
-      <item itemvalue="Application.BinaryString" />
-      <item itemvalue="Application.encoder" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CreateTargetArray_1389" />
+      <item itemvalue="Application.MaxIncrese_807" />
+      <item itemvalue="Application.LeftRightSum" />
+      <item itemvalue="Application.NumberLessThen_1365" />
+      <item itemvalue="Application.ShuffleArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MatchingCommon_2657" />
-        <item itemvalue="Application.MinimumMoves" />
-        <item itemvalue="Application.encoder" />
-        <item itemvalue="Application.BinaryString" />
+        <item itemvalue="Application.MaxIncrese_807" />
+        <item itemvalue="Application.CreateTargetArray_1389" />
+        <item itemvalue="Application.NumberLessThen_1365" />
+        <item itemvalue="Application.LeftRightSum" />
+        <item itemvalue="Application.ShuffleArray" />
       </list>
     </recent_temporary>
   </component>
