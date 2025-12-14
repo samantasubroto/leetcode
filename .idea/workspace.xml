@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b5bc6ea-5e13-46f9-aad2-1e76cfd76afd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +45,13 @@
     "Application.BuyAndSellStocksI.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.CreateTargetArray_1389.executor": "Run",
+    "Application.DecodeMessage.executor": "Run",
     "Application.DecompressRunLength_1313.executor": "Run",
     "Application.DiagonallySortMatrix.executor": "Run",
     "Application.DigitCanWin.executor": "Run",
     "Application.EvenOneSide.executor": "Run",
     "Application.FinalVariableValue.executor": "Run",
+    "Application.FrequentVovels.executor": "Run",
     "Application.General.executor": "Run",
     "Application.GoodPairs.executor": "Run",
     "Application.LargestLocalValue_2373.executor": "Run",
@@ -92,13 +93,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DiagonallySortMatrix">
-    <configuration name="DecompressRunLength_1313" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.DecompressRunLength_1313" />
+  <component name="RunManager" selected="Application.DecodeMessage">
+    <configuration name="DecodeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashmap.DecodeMessage" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.GoodPairs" />
+    <configuration name="FrequentVovels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashmap.FrequentVovels" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecompressRunLength_1313" />
+      <item itemvalue="Application.DecodeMessage" />
       <item itemvalue="Application.DiagonallySortMatrix" />
-      <item itemvalue="Application.GoodPairs" />
+      <item itemvalue="Application.FrequentVovels" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StudentSort_2545" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeMessage" />
+        <item itemvalue="Application.FrequentVovels" />
         <item itemvalue="Application.DiagonallySortMatrix" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentSort_2545" />
-        <item itemvalue="Application.GoodPairs" />
-        <item itemvalue="Application.DecompressRunLength_1313" />
       </list>
     </recent_temporary>
   </component>
