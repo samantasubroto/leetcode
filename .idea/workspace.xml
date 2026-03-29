@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5bc6ea-5e13-46f9-aad2-1e76cfd76afd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     "Application.AllowedStringMatch.executor": "Run",
     "Application.ArrayRearrenge.executor": "Run",
     "Application.BinaryString.executor": "Run",
+    "Application.BuyAndSellStock.executor": "Run",
     "Application.BuyAndSellStocks.executor": "Run",
     "Application.BuyAndSellStocksI.executor": "Run",
     "Application.CountPairs.executor": "Run",
@@ -72,6 +76,7 @@
     "Application.PartitioningIntoMinimumNumber.executor": "Run",
     "Application.PeopleSorting.executor": "Debug",
     "Application.Pivot_Partition.executor": "Run",
+    "Application.PlusOne.executor": "Run",
     "Application.ReversePrefix.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseWords.executor": "Run",
@@ -89,18 +94,31 @@
     "last_opened_file_path": "/Users/subrotho/competitive programming/leetcode",
     "onboarding.tips.debug.path": "C:/Users/ssubrotho/IdeaProjects/leetcode_new/src/Main.java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddDigits">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.AddDigits" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.BuyAndSellStock" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +139,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiagonallySortMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.DiagonallySortMatrix" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PlusOne" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -130,26 +155,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequentVovels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashmap.FrequentVovels" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,19 +167,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BuyAndSellStock" />
+      <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.AddDigits" />
       <item itemvalue="Application.DecodeMessage" />
-      <item itemvalue="Application.DiagonallySortMatrix" />
-      <item itemvalue="Application.FrequentVovels" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.BuyAndSellStock" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.DecodeMessage" />
-        <item itemvalue="Application.FrequentVovels" />
-        <item itemvalue="Application.DiagonallySortMatrix" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
